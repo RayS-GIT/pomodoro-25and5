@@ -92,7 +92,7 @@ function App() {
     <div className='clock'>
       <div className='setters'>
         <div className="break">
-          <h4 id="break-length">Break Length</h4>
+          <h4 id="break-label">Break Length</h4>
           <TimeSetter 
             time={breakTime}
             setTime={changeBreakTime}
